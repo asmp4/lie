@@ -1,0 +1,116 @@
+body, html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: url('mara.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #e0e0e0;
+}
+
+header {
+    padding-top: 20px;
+    text-align: center;
+    color: #000;
+}
+
+header h1 {
+    padding-top: 20px;
+    font-size: 38px;
+    font-weight: 900;
+    font-style: bold;
+}
+
+header p {
+    font-size: 20px;
+    font-weight: 900;
+    margin: 0;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #020318;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    box-sizing: border-box;
+}
+
+input, textarea, button {
+    width: 100%;
+    padding: 10px;
+    background: #febfea;
+    border: 1px solid #000;
+    border-radius: 5px;
+    color: #000;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+input::placeholder, textarea::placeholder {
+    color: #464646;
+}
+
+textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+button {
+    background: #febfea;
+    color: #000;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #f22a80;
+}
+
+.links {
+    margin-top: 20px;
+
+}
+
+.links .scenario {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(30, 30, 30, 0.9);
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.links a {
+    text-decoration: none;
+    color: #66b3ff;
+    font-weight: bold;
+}
+
+.links a:hover {
+    color: #3399ff;
+}
+
+button.edit, button.delete {
+    background: none;
+    color: #ff5c5c;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+button.edit:hover {
+    color: #ff8585;
+}
+
+button.delete:hover {
+    color: #ff4c4c;
+}
